@@ -1,0 +1,2 @@
+Composite: When I perform baseline `$name` check
+When I ${visual-action} baseline with `${browser}/<name>`
