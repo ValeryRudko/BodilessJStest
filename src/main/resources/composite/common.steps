@@ -1,2 +1,4 @@
-Composite: When I perform baseline `$name` check
-When I ${visual-action} baseline with `${browser}/<name>`
+Composite: When I perform baseline `$name` check ignoring diff `$percantage` percantage
+When I ${visual-action} baseline with `${browser}/<name>` ignoring:
+|ACCEPTABLE_DIFF_PERCENTAGE|
+|<percantage>              |
